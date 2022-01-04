@@ -1,14 +1,17 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { List, Item, Btn } from './Phonebook.styled';
+import ContactsItem from "./ContactsItem";
+import { List, Item } from './Phonebook.styled';
 
 const ContactsList = ({ contacts, onDeleteContact }) => (
     <List>
         {contacts.map(({ id, name, number }) => (
             <Item key={id}>
-                <p>{name}</p>
-                <p>{number}</p>
-                <Btn onClick={() => onDeleteContact(id)}>Delete</Btn>
+                <ContactsItem
+                    name={name}
+                    number={number}
+                    onDelete={() => onDeleteContact(id)}
+                />
             </Item>
         ))}
     </List>

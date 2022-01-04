@@ -46,3 +46,20 @@ export const Item = styled.li`
     border-radius: 5px;
 }
 `;
+export const IconBtn = styled.button`
+    margin: 0;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    background-color: revert;
+    box-shadow: 10px 5px 5px #dcdcdc;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :hover {
+    background-color: darkgrey;
+    }
+`;
