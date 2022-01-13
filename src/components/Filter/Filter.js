@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { InputStyled } from './Phonebook.styled';
+import { InputStyled } from '../Phonebook.styled';
 
 const Filter = ({ value, onChange }) => (
     <label>Find contacts by name

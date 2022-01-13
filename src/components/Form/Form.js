@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
-import { InputStyled, Btn } from './Phonebook.styled';
+import { InputStyled, Btn } from '../Phonebook.styled';
+
 class Form extends Component {
     state = {
         name: '',

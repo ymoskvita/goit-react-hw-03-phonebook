@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import IconButton from "./IconButton";
-import { ReactComponent as DeleteIcon } from '../icons/close.svg'
+import IconButton from "../IconsButton/IconButton";
+import { ReactComponent as DeleteIcon } from '../../icons/close.svg'
 
 const ContactsItem = ({ name, number, onDelete }) => (
     <>

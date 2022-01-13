@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { nanoid } from 'nanoid';
 import toast, { Toaster } from 'react-hot-toast';
-import Section from "./Phonebook/Section";
-import ContactsList from "./Phonebook/ContactsList";
-import Form from "./Phonebook/Form";
-import Filter from "./Phonebook/Filter";
+import Section from "./components/Section/Section";
+import ContactsList from "./components/ContactsList/ContactsList";
+import Form from "./components/Form/Form";
+import Filter from "./components/Filter/Filter";
 
 class App extends Component {
   state = {
